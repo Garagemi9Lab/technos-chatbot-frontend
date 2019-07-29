@@ -10,5 +10,8 @@ export default theme => ({
         flexShrink: 0,
         fontSize: 22,
         borderTopLeftRadius: 6
+    },
+    logo: {
+        margin: '0 5px'
     }
 })
