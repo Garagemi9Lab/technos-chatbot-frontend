@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { withStyles, List, ListItem, ListItemText, Typography } from '@material-ui/core';
+import { withStyles, List, ListItem, ListItemText } from '@material-ui/core';
 import style from './style'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
@@ -31,7 +31,7 @@ class ListBubble extends Component {
 
         return (
             <div className={`${classes.bubble} ${classes[`${message.user}Bubble`]}`}>
-                {message.title != '' && (
+                {message.title !== '' && (
                     <h3>{message.title}</h3>
                 )}
                 {message.options && message.options.length > 0 && (
