@@ -10,8 +10,8 @@ export default theme => ({
     },
     applicationBubble: {
         marginLeft: 5,
-        backgroundColor: theme.palette.primary[400],
-        color: '#fff',
+        backgroundColor: '#c92e2e',
+        color: '#000',
         textAlign: 'left',
         borderTopRightRadius: 5,
         borderBottomRightRadius: 5,

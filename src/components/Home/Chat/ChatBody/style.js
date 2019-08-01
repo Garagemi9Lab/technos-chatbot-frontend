@@ -4,7 +4,7 @@ export default theme => ({
         flexDirection: 'column',
         overflowY: 'hidden',
         height: '100%',
-        borderLeft: '1px solid #141E30'
+        borderLeft: '1px solid #fff'
     },
     messagesHolder: {
         display: 'flex',
@@ -20,10 +20,20 @@ export default theme => ({
     },
     inputHolder: {
         flexGrow: 1,
-        
     },
+
     inputTextField: {
         paddingLeft: 5,
-        color: 'white'
+        color: 'black'
+    },
+    cssOutlinedInput: {
+        '&$cssFocused': {
+            borderColor: `red !important`,
+        }
+    },
+    focusedInput: {
+    },
+    btn: {
+        color: '#c92e2e'
     }
 })

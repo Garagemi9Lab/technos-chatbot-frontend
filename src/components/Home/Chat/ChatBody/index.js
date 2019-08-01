@@ -78,7 +78,11 @@ class ChatBody extends Component {
                             id="input"
                             className={classes.inputHolder}
                             inputProps={{
-                                className: classes.inputTextField
+                                className: classes.inputTextField,
+                                classes: {
+                                    root: classes.cssOutlinedInput,
+                                    focused: classes.cssFocused
+                                }
                             }}
                             value={this.state.inputValue}
                             margin="normal"
@@ -87,7 +91,7 @@ class ChatBody extends Component {
                             disabled={messages.isSending ? true : false}
                             inputRef={this.inputTextField}
                         />
-                        <IconButton color="primary" type="submit" disabled={messages.isSending ? true : false}>
+                        <IconButton className={classes.btn} type="submit" disabled={messages.isSending ? true : false}>
                             <Send />
                         </IconButton>
                     </form>

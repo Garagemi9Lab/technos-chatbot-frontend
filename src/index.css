@@ -10,7 +10,8 @@ body,
 #root {
     height: 100% !important;
     width: 100% !important;
-    background-image: linear-gradient(to right,#141E30, #243B55);
+    /* background-image: linear-gradient(to right,#141E30, #243B55); */
+    background-color: #eee;
     overflow: 'hidden';
     font-family: 'Roboto', sans-serif;
 }

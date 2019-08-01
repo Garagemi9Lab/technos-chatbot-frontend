@@ -20,6 +20,6 @@ export default theme => ({
     },
     time: {
         fontSize: 10,
-        color: "#fff"
+        color: "#8a8a8a"
     }
 })
