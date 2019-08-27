@@ -19,7 +19,7 @@ export default theme => ({
     },
     clientBubble: {
         marginRight: 5,
-        backgroundColor: '#fff',
+        backgroundColor: '#000',
         textAlign: 'left',
         borderTopLeftRadius: 5,
         borderBottomLeftRadius: 5,
@@ -32,7 +32,7 @@ export default theme => ({
         padding: 0
     },
     listItemText: {
-        color: "#fff",
+        color: "#000",
         fontSize: '11pt',
         padding: '5px 5px',
         "&::before": {
@@ -41,7 +41,7 @@ export default theme => ({
             width: '6px',
             height: '6px',
             borderRadius: '50%',
-            border: '1px solid #fff',
+            border: '1px solid #000',
             backgroundColor: 'transparent',
             marginRight: 5
         }
